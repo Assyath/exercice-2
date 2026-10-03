@@ -106,9 +106,9 @@ while 1 <= etape <= 3:
         description_video = input("Décrivez la vidéo : ")
         
         donnees_video = {
-            "model": "google/veo-3.1-fast",
+            "model": "google/veo-3.1-lite",
             "prompt": description_video,
-            "duration_seconds": 2,
+            "duration_seconds": 4,
             "aspect_ratio": "9:16"
         }
         
