@@ -13,7 +13,7 @@ headers = {
     "Content-Type": "application/json"
 }
 
-etape = 3
+etape = 1
 print("=== SCRIPT INTERACTIF RODIUMAI ===")
 
 if not api_key:
